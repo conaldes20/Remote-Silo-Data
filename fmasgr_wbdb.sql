@@ -1,0 +1,23 @@
+CREATE TABLE suprelitem (
+    f_id VARCHAR(20) NOT NULL,
+    f_cehao VARCHAR(20) DEFAULT ' ' NOT NULL,
+    f_huoming VARCHAR(20) DEFAULT ' ' NOT NULL,
+    f_fahuo_dw VARCHAR(40) DEFAULT ' ' NOT NULL,
+    f_shouhuo_dw VARCHAR(50) DEFAULT ' ' NOT NULL,
+    f_maozhong INT NOT NULL,
+    f_pizhong INT NOT NULL,
+    f_jingzhong INT NOT NULL,
+    f_firsttime TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    f_secondtime TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    f_beizhu VARCHAR(20) DEFAULT ' ' NOT NULL,
+    f_jinchuchar VARCHAR(20) DEFAULT ' ' NOT NULL,
+    f_unit VARCHAR(15) DEFAULT ' ' NOT NULL,
+    f_driver VARCHAR(20) DEFAULT ' ' NOT NULL,
+    f_biaozhi VARCHAR(20) DEFAULT ' ' NOT NULL,
+    f_sihengyua VARCHAR(35) DEFAULT ' ' NOT NULL,
+    f_firstweigh INT NOT NULL,
+    f_fee INT NOT NULL,
+    f_guige VARCHAR(20) DEFAULT ' ' NOT NULL,
+    f_yunshu_dw VARCHAR(20) DEFAULT ' ' NOT NULL,
+    PRIMARY KEY (F_id)
+);
